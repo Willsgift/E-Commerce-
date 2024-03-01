@@ -36,15 +36,15 @@
          <!-- logo -->
 
          <!-- navagition start here -->
-
+         
          <!-- DESKTOP MENU -->
          <nav class="menu-desktop">
             <ul class="flex text-white font-medium text-l items-center mt-2">
                 <li><a href="#" class=" px-3 py-4">Home</a></li>
-                <li><a href="#" class=" px-3 py-4">Shops</a></li>
+                <li><a href="#" class=" px-3 py-4">Products</a></li>
                 <li><a href="#" class=" px-3 py-4">Pages</a></li>
                 <li><a href="#"class=" px-3 py-4">Blog</a></li>
-                <li><a href="#" class=" px-3 py-4">Contact</a></li>
+                <li><a href="contact.html" class=" px-3 py-4">Contact</a></li>
             </ul>
          </nav>
 
@@ -57,11 +57,11 @@
             </div>
             
             <ul class id="menu" class="hidden">
-                <li><a href="#" class=" block py-2">Home</a></li>
-                <li><a href="#" class=" block py-2">Shops</a></li>
+                <li><a href="index.html" class=" block py-2">Home</a></li>
+                <li><a href="#" class=" block py-2">Products</a></li>
                 <li><a href="#" class=" block py-2">Pages</a></li>
                 <li><a href="#"class=" block py-2">Blog</a></li>
-                <li><a href="#" class="block py-2">Contact</a></li>
+                <li><a href="contact.html" class="block py-2">Contact</a></li>
             </ul>
          </nav>
          <!-- navagition ends here -->
@@ -80,8 +80,8 @@
             </div>
           
             <div>
-                <input type="submit" value="REGISTER" class="bg-black text-white px-3 py-3 w-32 font-medium rounded-sm mt-6 mr-3 outline-none"  name="register">
-            <input type="submit" value="LOGIN" class="bg-black text-white px-3 py-3 w-32 font-medium rounded-sm mt-6  outline-none" name="register">
+                <input type="submit" value="REGISTER" class="bg-black text-white px-3 py-3 w-32 font-medium rounded-lg mt-6 mr-3  outline-none  hover:scale-95 transition ease-in duration-300 " name="register">
+            <input type="submit" value="LOGIN" class="bg-black text-white px-3 py-3 w-32 font-medium rounded-lg mt-6  outline-none hover:scale-95 transition ease-in duration-300 " name="register">
             </div>
 
 
@@ -113,7 +113,6 @@
     </div>
 
 </div>
-
 <!-- banner section end -->
 
     <!-- header section ends  -->
@@ -159,7 +158,6 @@
        <!-- our services section start -->
        <div class="container mx-auto mt-10">
         <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-2  mx-auto">
-
         
         <div class="container mx-auto px-6">
             <img src="https://media.istockphoto.com/id/1478558809/photo/keep-your-skin-healthy.jpg?s=612x612&w=0&k=20&c=dGr2O_quMEw3WFzxuOxx30HPAQinJyT4wMnAG-xEMJo=" alt="">
@@ -218,7 +216,7 @@
    </div>
     <!-- gallary section end here -->
 
-    <!-- form -->
+    <!-- form section starts -->
 
     <div class="mx-auto mt-5 px-6">
         <div class="  text-center  ">
@@ -226,28 +224,57 @@
             <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, unde.</P>
         </div>
     
-            <div class=" mx-auto container  bg-gray-100 p-5 rounded-lg">
-            <form  class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-8 container mx-auto px-6 ">
+            <div class=" mx-auto container  bg-gray-100 p-5 rounded-lg ">
+            <form  class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-5 container mx-auto px-6 mt-5 ">
 
-               
-                <input type="text" name="fullname" placeholder="fullname"  class="mt-1 p-2 border border-gray-300 rounded-md font-semibold ">
-               
-                <div>
-                    <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M18 9V6M18 6V3M18 6H15M18 6H21M18.5 21C9.93959 21 3 14.0604 3 5.5C3 5.11378 3.01413 4.73086 3.04189 4.35173C3.07375 3.91662 3.08968 3.69907 3.2037 3.50103C3.29814 3.33701 3.4655 3.18146 3.63598 3.09925C3.84181 3 4.08188 3 4.56201 3H7.37932C7.78308 3 7.98496 3 8.15802 3.06645C8.31089 3.12515 8.44701 3.22049 8.55442 3.3441C8.67601 3.48403 8.745 3.67376 8.88299 4.05321L10.0491 7.26005C10.2096 7.70153 10.2899 7.92227 10.2763 8.1317C10.2643 8.31637 10.2012 8.49408 10.0942 8.64506C9.97286 8.81628 9.77145 8.93713 9.36863 9.17882L8 10C9.2019 12.6489 11.3501 14.7999 14 16L14.8212 14.6314C15.0629 14.2285 15.1837 14.0271 15.3549 13.9058C15.5059 13.7988 15.6836 13.7357 15.8683 13.7237C16.0777 13.7101 16.2985 13.7904 16.74 13.9509L19.9468 15.117C20.3262 15.255 20.516 15.324 20.6559 15.4456C20.7795 15.553 20.8749 15.6891 20.9335 15.842C21 16.015 21 16.2169 21 16.6207V19.438C21 19.9181 21 20.1582 20.9007 20.364C20.8185 20.5345 20.663 20.7019 20.499 20.7963C20.3009 20.9103 20.0834 20.9262 19.6483 20.9581C19.2691 20.9859 18.8862 21 18.5 21Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
-                    <input type="number" name="number" placeholder="xxxxxxxxx" class="mt-1 p-2 border border-gray-300 rounded-md font-semibold">
+                <div class="relative">
+                    <input type="text" class="border border-gray-300 rounded-md pl-10 pr-4 py-2 font-semibold w-full   " placeholder="Enter Your fullname">
+                    <svg class="absolute left-3 top-3 h-5 w-5 text-gray-400"viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 1C8.96243 1 6.5 3.46243 6.5 6.5C6.5 9.53757 8.96243 12 12 12C15.0376 12 17.5 9.53757 17.5 6.5C17.5 3.46243 15.0376 1 12 1Z" fill="#000000"></path> <path d="M7 14C4.23858 14 2 16.2386 2 19V22C2 22.5523 2.44772 23 3 23H21C21.5523 23 22 22.5523 22 22V19C22 16.2386 19.7614 14 17 14H7Z" fill="#000000"></path> </g></svg>
+                  </div>
 
-                </div>
-               
-               <input type="date" name="date" placeholder="" class="mt-1 p-2 border border-gray-300 rounded-md font-semibold">
-               <input type="text" name="fullname" placeholder="fullname" class="mt-1 p-2 border border-gray-300 rounded-md font-semibold">
-               <input type="text" name="fullname" placeholder="fullname" class="mt-1 p-2 border border-gray-300 rounded-md font-semibold">
-               <input type="text" name="fullname" placeholder="fullname" class="mt-1 p-2 border border-gray-300 rounded-md font-semibold">
-    
+                  <div class="relative">
+                    <input type="number" class="border border-gray-300 rounded-md pl-10 pr-4 py-2 font-semibold w-full   " placeholder="08124737481">
+                    <svg class="absolute left-3 top-3 h-5 w-5 text-gray-400" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M14.05 6C15.0268 6.19057 15.9244 6.66826 16.6281 7.37194C17.3318 8.07561 17.8095 8.97326 18 9.95M14.05 2C16.0793 2.22544 17.9716 3.13417 19.4163 4.57701C20.8609 6.01984 21.7721 7.91101 22 9.94M18.5 21C9.93959 21 3 14.0604 3 5.5C3 5.11378 3.01413 4.73086 3.04189 4.35173C3.07375 3.91662 3.08968 3.69907 3.2037 3.50103C3.29814 3.33701 3.4655 3.18146 3.63598 3.09925C3.84181 3 4.08188 3 4.56201 3H7.37932C7.78308 3 7.98496 3 8.15802 3.06645C8.31089 3.12515 8.44701 3.22049 8.55442 3.3441C8.67601 3.48403 8.745 3.67376 8.88299 4.05321L10.0491 7.26005C10.2096 7.70153 10.2899 7.92227 10.2763 8.1317C10.2643 8.31637 10.2012 8.49408 10.0942 8.64506C9.97286 8.81628 9.77145 8.93713 9.36863 9.17882L8 10C9.2019 12.6489 11.3501 14.7999 14 16L14.8212 14.6314C15.0629 14.2285 15.1837 14.0271 15.3549 13.9058C15.5059 13.7988 15.6836 13.7357 15.8683 13.7237C16.0777 13.7101 16.2985 13.7904 16.74 13.9509L19.9468 15.117C20.3262 15.255 20.516 15.324 20.6559 15.4456C20.7795 15.553 20.8749 15.6891 20.9335 15.842C21 16.015 21 16.2169 21 16.6207V19.438C21 19.9181 21 20.1582 20.9007 20.364C20.8185 20.5345 20.663 20.7019 20.499 20.7963C20.3009 20.9103 20.0834 20.9262 19.6483 20.9581C19.2691 20.9859 18.8862 21 18.5 21Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                  </div>
+                 
+                  <div class="relative">
+                    <input type="date" class="border border-gray-300 rounded-md py-2 font-semibold w-full   " placeholder="08124737481">
+                    
+                  </div>
+                 
+                  <div class="relative">
+                    <input type="text" class="border border-gray-300 rounded-md pl-10 pr-4 py-2 font-semibold w-full   " placeholder="Enter Your Email">
+                    <svg class="absolute left-3 top-3 h-5 w-5 text-gray-400" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 7L10.94 11.3375C11.5885 11.7428 12.4115 11.7428 13.06 11.3375L20 7M5 18H19C20.1046 18 21 17.1046 21 16V8C21 6.89543 20.1046 6 19 6H5C3.89543 6 3 6.89543 3 8V16C3 17.1046 3.89543 18 5 18Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                  </div>
+
+                <div class="relative">
+                    <input type="text" class="border border-gray-300 rounded-md pl-10 pr-4 py-2 font-semibold w-full   " placeholder="Enter Your city">
+                    <svg version="1.1" id="_x32_" class="absolute left-3 top-3 h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" width="64px" height="64px" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0{fill:#000000;} </style> <g> <rect x="207.858" y="180.876" class="st0" width="19.688" height="19.672"></rect> <rect x="250.536" y="180.876" class="st0" width="19.687" height="19.672"></rect> <rect x="293.214" y="180.876" class="st0" width="19.687" height="19.672"></rect> <rect x="207.858" y="222.515" class="st0" width="19.688" height="19.687"></rect> <rect x="250.536" y="222.515" class="st0" width="19.687" height="19.687"></rect> <rect x="293.214" y="222.515" class="st0" width="19.687" height="19.687"></rect> <rect x="207.858" y="264.177" class="st0" width="19.688" height="19.672"></rect> <rect x="250.536" y="264.177" class="st0" width="19.687" height="19.672"></rect> <rect x="293.214" y="264.177" class="st0" width="19.687" height="19.672"></rect> <rect x="207.858" y="305.815" class="st0" width="19.688" height="19.687"></rect> <rect x="250.536" y="305.815" class="st0" width="19.687" height="19.687"></rect> <rect x="293.214" y="305.815" class="st0" width="19.687" height="19.687"></rect> <rect x="207.858" y="347.469" class="st0" width="19.688" height="19.68"></rect> <rect x="71.125" y="242.21" class="st0" width="19.672" height="19.68"></rect> <rect x="71.125" y="283.864" class="st0" width="19.672" height="19.68"></rect> <rect x="71.125" y="325.518" class="st0" width="19.672" height="19.679"></rect> <rect x="71.125" y="367.165" class="st0" width="19.672" height="19.68"></rect> <rect x="71.125" y="408.811" class="st0" width="19.672" height="19.68"></rect> <rect x="120.365" y="242.21" class="st0" width="19.672" height="19.68"></rect> <rect x="120.365" y="283.864" class="st0" width="19.672" height="19.68"></rect> <rect x="120.365" y="325.518" class="st0" width="19.672" height="19.679"></rect> <rect x="120.365" y="367.165" class="st0" width="19.672" height="19.68"></rect> <rect x="120.365" y="408.811" class="st0" width="19.672" height="19.68"></rect> <rect x="250.536" y="347.469" class="st0" width="19.687" height="19.68"></rect> <rect x="293.214" y="347.469" class="st0" width="19.687" height="19.68"></rect> <rect x="207.858" y="389.123" class="st0" width="19.688" height="19.68"></rect> <rect x="250.536" y="389.123" class="st0" width="19.687" height="19.68"></rect> <rect x="293.214" y="389.123" class="st0" width="19.687" height="19.68"></rect> <rect x="374.16" y="301.406" class="st0" width="65.639" height="11.45"></rect> <rect x="374.16" y="334.943" class="st0" width="65.639" height="11.443"></rect> <rect x="374.16" y="368.457" class="st0" width="65.639" height="11.451"></rect> <rect x="374.16" y="401.979" class="st0" width="65.639" height="11.451"></rect> <path class="st0" d="M485.75,475.54V252.367H358.838V134.2h-43.291V95.887h-13.124V62.716h-34.471V10.202h-15.307v52.514h-34.307 v33.171h-13.125V134.2h-43.291v61.737H26.264V475.54H0v26.258h32.827h135.657h13.124h157.542h13.124h126.913H512V475.54H485.75z M168.484,482.103h-50.735v-35.002H96.687v35.002H45.952V215.631h122.533V482.103z M238.024,82.411h44.696v18.162h-44.696V82.411z M224.914,115.574h70.945v25.196h-70.945V115.574z M339.151,258.93v223.172h-62.365v-48.126h-32.812v48.126h-62.365V202.507 v-48.613h30.166h97.21h30.166V258.93z M466.048,482.103h-46.356v-35.002h-21.062v35.002h-46.356V272.055h113.773V482.103z"></path> </g> </g></svg>
+                  </div>
+
+               <div class="font-medium ">
+                <select name="" id="" class="w-full p-2 border border-gray-300 rounded-md">
+                    <option value="">Abia</option>
+                    <option value="">Adamawa</option>
+                    <option value="">Akwa Ibom</option>
+                    <option value="">Anambra</option>
+                    <option value="">Bauchi</option>
+                    <option value="">Bayelsa</option>
+                    <option value="">Benue</option>
+                    <option value="">Borno</option>
+                    <option value="">Abia</option>
+                    <option value="">Adamawa</option>
+                    <option value="">Akwa Ibom</option>
+                    <option value="">Anambra</option>
+                  </select>
+
+               </div>
+                <input type="submit" name="SUMIT" id="submit" class="mt-1 p-2 border border-gray-300 rounded-md font-semibold bg-gray-900 text-white text-xl lg:w-32 hover:scale-95 transition ease-in duration-300 shadow-md w-full" >
             </form>
         </div>
 
         </div>
-    <!-- fo, -->
+    <!-- form  section ends here-->
 
     <!-- footer start -->
     <footer class="bg-yellow-900 px-3 py-16 mt-5 ">
@@ -298,7 +325,6 @@
 
 
     </footer>
-    
  <!-- footer end  -->
 
 

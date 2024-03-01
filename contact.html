@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>con</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <style>
+        /* Custom styles */
+        .menu-mobile {
+            display: none;
+        }
+    
+        @media (max-width: 768px) {
+            .menu-desktop {
+                display: none;
+            }
+            .menu-mobile {
+                display: block;
+            }
+        }
+    </style>
+    <!-- header section start here -->
+    <div class="bg-yellow-900 mx-auto p-2 ">
+        <div class="container flex justify-between items-center mx-auto">
+     <!-- logo --> 
+     <div class="font-medium text-white text-2xl mt-2">
+        <h2 class="">SHOPIFY</h2>
+     </div>
+     
+     <!-- logo -->
+
+     <!-- navagition start here -->
+
+     <!-- DESKTOP MENU -->
+     <nav class="menu-desktop">
+        <ul class="flex text-white font-medium text-l items-center mt-2">
+            <li><a href="index.html" class=" px-3 py-4">Home</a></li>
+            <li><a href="#" class=" px-3 py-4">Products</a></li>
+            <li><a href="#" class=" px-3 py-4">Pages</a></li>
+            <li><a href="#"class=" px-3 py-4">Blog</a></li>
+            <li><a href="#" class=" px-3 py-4">Contact</a></li>
+        </ul>
+     </nav>
+
+        <!-- MOBILE MENU -->
+     <nav class="menu-mobile flex text-white font-medium text-l items-center">
+        <div>
+            <button id="menu-toggle" class="block lg:hidden focus:outline-none">
+                <svg width="64px" height="64px" class="w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 6H20M4 12H20M4 18H20" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+            </button>
+        </div>
+        
+        <ul class id="menu" class="hidden">
+            <li><a href="#" class=" block py-2">Home</a></li>
+            <li><a href="#" class=" block py-2">Products</a></li>
+            <li><a href="#" class=" block py-2">Pages</a></li>
+            <li><a href="#"class=" block py-2">Blog</a></li>
+            <li><a href="#" class="block py-2">Contact</a></li>
+        </ul>
+     </nav>
+     <!-- navagition ends here -->
+     <!-- header section ends here -->
+    </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-- footer start -->
+     <footer class="bg-yellow-900 px-3 py-16 mt-5 ">
+        <div class="container mx-auto text-white">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+              
+
+                <div class="mb-8">
+                    <h2 class="text-3xl font-semibold mb-2">SHOPIFY</h2>
+                   
+                </div>
+
+
+                <div class="mb-8">
+                    <h2 class="text-xl font-semibold mb-2">RESOURCES</h2>
+                    <ul >
+                        <li><a href="#" class="block hover:text-gray-400 ">Skinsho</a></li>
+                        <li><a href="#" class="block hover:text-gray-400">Returns Policy</a></li>
+                        <li><a href="#" class="block hover:text-gray-400">Privacy policy</a></li>
+                        <li><a href="#" class="block hover:text-gray-400">Terms of Service</a></li>
+                    </ul>
+                </div>
+
+                <div class="mb-8">
+                    <h2 class="text-xl font-semibold mb-2">CONTACT  </h2>
+                    <ul >
+                        <li><a href="#" class="block hover:text-gray-400">General Inquiries</a></li>
+                        <li><a href="#" class="block hover:text-gray-400">Media/Press Inquiries </a></li>
+                        <li><a href="#" class="block hover:text-gray-400">Retailer/Spa Inquiries</a></li>
+                    </ul>
+                </div>
+
+                  <div class="mb-8">
+                    <h2 class="text-xl font-semibold mb-2 ">FOLLOW @SHOPIFY  </h2>
+                    <div class="flex gap-2">
+                        <svg fill="#000000" width="30px" height="30px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 2.03998C6.5 2.03998 2 6.52998 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.84998C10.44 7.33998 11.93 5.95998 14.22 5.95998C15.31 5.95998 16.45 6.14998 16.45 6.14998V8.61998H15.19C13.95 8.61998 13.56 9.38998 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96C15.9164 21.5878 18.0622 20.3855 19.6099 18.57C21.1576 16.7546 22.0054 14.4456 22 12.06C22 6.52998 17.5 2.03998 12 2.03998Z"></path> </g></svg>
+                        <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M3.50002 12C3.50002 7.30558 7.3056 3.5 12 3.5C16.6944 3.5 20.5 7.30558 20.5 12C20.5 16.6944 16.6944 20.5 12 20.5C10.3278 20.5 8.77127 20.0182 7.45798 19.1861C7.21357 19.0313 6.91408 18.9899 6.63684 19.0726L3.75769 19.9319L4.84173 17.3953C4.96986 17.0955 4.94379 16.7521 4.77187 16.4751C3.9657 15.176 3.50002 13.6439 3.50002 12ZM12 1.5C6.20103 1.5 1.50002 6.20101 1.50002 12C1.50002 13.8381 1.97316 15.5683 2.80465 17.0727L1.08047 21.107C0.928048 21.4637 0.99561 21.8763 1.25382 22.1657C1.51203 22.4552 1.91432 22.5692 2.28599 22.4582L6.78541 21.1155C8.32245 21.9965 10.1037 22.5 12 22.5C17.799 22.5 22.5 17.799 22.5 12C22.5 6.20101 17.799 1.5 12 1.5ZM14.2925 14.1824L12.9783 15.1081C12.3628 14.7575 11.6823 14.2681 10.9997 13.5855C10.2901 12.8759 9.76402 12.1433 9.37612 11.4713L10.2113 10.7624C10.5697 10.4582 10.6678 9.94533 10.447 9.53028L9.38284 7.53028C9.23954 7.26097 8.98116 7.0718 8.68115 7.01654C8.38113 6.96129 8.07231 7.046 7.84247 7.24659L7.52696 7.52195C6.76823 8.18414 6.3195 9.2723 6.69141 10.3741C7.07698 11.5163 7.89983 13.314 9.58552 14.9997C11.3991 16.8133 13.2413 17.5275 14.3186 17.8049C15.1866 18.0283 16.008 17.7288 16.5868 17.2572L17.1783 16.7752C17.4313 16.5691 17.5678 16.2524 17.544 15.9269C17.5201 15.6014 17.3389 15.308 17.0585 15.1409L15.3802 14.1409C15.0412 13.939 14.6152 13.9552 14.2925 14.1824Z" fill="#000000"></path> </g></svg>
+                        <svg fill="#000000" width="30px" height="30px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M20.445 5h-8.891A6.559 6.559 0 0 0 5 11.554v8.891A6.559 6.559 0 0 0 11.554 27h8.891a6.56 6.56 0 0 0 6.554-6.555v-8.891A6.557 6.557 0 0 0 20.445 5zm4.342 15.445a4.343 4.343 0 0 1-4.342 4.342h-8.891a4.341 4.341 0 0 1-4.341-4.342v-8.891a4.34 4.34 0 0 1 4.341-4.341h8.891a4.342 4.342 0 0 1 4.341 4.341l.001 8.891z"></path><path d="M16 10.312c-3.138 0-5.688 2.551-5.688 5.688s2.551 5.688 5.688 5.688 5.688-2.551 5.688-5.688-2.55-5.688-5.688-5.688zm0 9.163a3.475 3.475 0 1 1-.001-6.95 3.475 3.475 0 0 1 .001 6.95zM21.7 8.991a1.363 1.363 0 1 1-1.364 1.364c0-.752.51-1.364 1.364-1.364z"></path></g></svg>
+                        <svg width="30px" height="30px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>pinterest [#180]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-220.000000, -7399.000000)" fill="#000000"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M173.876,7239 C168.399,7239 164,7243.43481 164,7248.95866 C164,7253.05869 166.407,7256.48916 169.893,7258.07936 C169.893,7256.21186 169.88,7256.45286 171.303,7250.38046 C170.521,7248.80236 171.129,7246.19673 172.88,7246.19673 C175.31,7246.19673 173.659,7249.79964 173.378,7251.2174 C173.129,7252.30544 173.959,7253.14238 174.955,7253.14238 C176.864,7253.14238 178.108,7250.71524 178.108,7247.87063 C178.108,7245.69456 176.615,7244.10437 174.042,7244.10437 C169.467,7244.10437 168.307,7249.19966 169.893,7250.79893 C170.292,7251.40294 169.893,7251.43118 169.893,7252.22174 C169.616,7253.05768 167.403,7251.84259 167.403,7248.70757 C167.403,7245.86195 169.727,7242.51518 174.457,7242.51518 C178.191,7242.51518 180.681,7245.27609 180.681,7248.2054 C180.681,7252.13805 178.523,7254.98366 175.37,7254.98366 C174.291,7254.98366 173.295,7254.3978 172.963,7253.72824 C172.36,7256.07371 172.238,7257.26258 171.303,7258.58153 C172.216,7258.83261 173.129,7259 174.125,7259 C179.602,7259 184,7254.56519 184,7249.04235 C183.752,7243.43481 179.353,7239 173.876,7239" id="pinterest-[#180]"> </path> </g> </g> </g> </g></svg>
+                  </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+    </footer>
+ <!-- footer end  -->
+ 
+ <script>
+    document.getElementById('menu-toggle').addEventListener('click', function() {
+        var menu = document.getElementById('menu');
+        menu.classList.toggle('hidden');
+    });
+</script> 
+
+</body>
+</html>
